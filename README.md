@@ -65,7 +65,7 @@ sudo docker run hello-world
 
 ##
 ### Docker-Compose - Instalação e configuração:
-OBS: EM ALGUNS CASOS PODE ESTAR NO /usr/bin/docker-compose
+OBS: EM ALGUNS CASOS PODE ESTAR NO /usr/bin/docker-compose.
 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
