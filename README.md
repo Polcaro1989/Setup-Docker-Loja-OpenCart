@@ -103,9 +103,8 @@ sudo apt-get install -y php8.2-cli php8.2-common php8.2-pgsql php8.2-zip php8.2-
 
 ##
 ### Install Composer
-curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
-
 ```
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === 'e21205b207c3ff031906575712edab6f13eb0b361f2085f1f1237b7126d785e826a450292b6cfd1d64d92e6563bbde02') { echo 'Installer verified'; } else { echo 'Installer 
 - [OpenCart forums](https://forum.opencart.com/)
